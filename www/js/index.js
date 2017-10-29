@@ -26,8 +26,8 @@ var app = {
         window.FirebasePlugin.onNotificationOpen( function(notification) { 
             
             //console.log('notificacao é ',notification);
-            //alert(JSON.stringify(notification.body)); 
-            alert("Continue anotando citações inspiracionais"); 
+            alert(JSON.stringify(notification.body)); 
+            //alert("Continue anotando citações inspiracionais"); 
             }, function(error) { 
                 alert(error); 
         } ); 
